@@ -277,7 +277,7 @@ vite, typescript
 RESPONSIVE BREAKPOINTS
 All sections use Tailwind's default breakpoints (sm: 640px, md: 768px, lg: 1024px) with mobile-first approach. Heavy use of clamp() for fluid typography. The entire design scales gracefully from mobile to ultra-wide screens.`,
     liveUrl: "https://3d-portfolio-green-seven.vercel.app/",
-    thumbnailUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800",
+    thumbnailUrl: "/jack.png",
     tags: ["3D", "Three.js", "React", "Portfolio", "Photography"],
     isFeatured: true,
     views: 4000,
