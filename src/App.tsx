@@ -34,7 +34,7 @@ export default function App() {
   // Persistence State
   const [projects, setProjects] = useState<Project[]>(() => {
     try {
-      const saved = localStorage.getItem('showcase_projects_v9');
+      const saved = localStorage.getItem('showcase_projects_v10');
       return saved ? JSON.parse(saved) : initialProjects;
     } catch (e) {
       return initialProjects;
@@ -77,7 +77,7 @@ export default function App() {
 
   // Sync with LocalStorage
   useEffect(() => {
-    localStorage.setItem('showcase_projects_v9', JSON.stringify(projects));
+    localStorage.setItem('showcase_projects_v10', JSON.stringify(projects));
   }, [projects]);
 
   useEffect(() => {

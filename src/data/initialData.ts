@@ -369,7 +369,7 @@ Pass the state setters (e.g., onOpenProposal) down to EVERY component. Whenever 
 Ensure all GSAP contexts are wrapped in a const ctx = gsap.context(() => {...}) and cleaned up with return () => ctx.revert(); inside useEffect to prevent React 19 StrictMode double-render bugs.
 Please begin coding this masterpiece. Ensure every padding, font weight, border radius, and animation matches these exact specifications.`,
     liveUrl: "https://rheon-marketing-agent-portofio-webs.vercel.app/",
-    thumbnailUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+    thumbnailUrl: "/rheon.png",
     tags: ["React", "TypeScript", "GSAP", "Digital Marketing", "Vite"],
     isFeatured: true,
     views: 3000,
