@@ -338,7 +338,7 @@ export default function App() {
         {/* Bold Typography Title */}
         <div className="py-2 flex items-center justify-center">
           <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
-            Follow if you like these template
+            Follow <span className="text-zinc-400 hover:text-zinc-200 transition-colors duration-200">shaheer_build</span> if you like these templates
           </h2>
         </div>
 
