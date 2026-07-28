@@ -1,0 +1,6 @@
+{
+  "name": "Project & Prompt Showcase Hub",
+  "description": "A showcase platform for creators to share all their websites, project links, live demos, and build prompts in one place for Instagram followers and visitors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
