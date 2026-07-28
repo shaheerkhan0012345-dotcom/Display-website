@@ -338,7 +338,7 @@ export default function App() {
         {/* Bold Typography Title */}
         <div className="py-2 flex items-center justify-center">
           <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
-            Follow <span className="relative inline-block mx-1.5"><span className="absolute -inset-1 rounded-lg bg-gradient-to-r from-yellow-400 to-amber-500 opacity-30 blur-md"></span><span className="relative bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-300 bg-clip-text text-transparent font-black">shaheer_build</span></span> if you like these templates
+            Follow <span className="text-purple-300 hover:text-white transition-colors duration-300 cursor-pointer font-black mx-1.5">shaheer_build</span> if you like these templates
           </h2>
         </div>
 
